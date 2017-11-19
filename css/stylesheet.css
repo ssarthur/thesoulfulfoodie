@@ -1,0 +1,108 @@
+/*the google fonts special.*/
+@import url('https://fonts.googleapis.com/css?family=Caveat|Josefin+Sans');
+
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+    text-align: center;
+    margin:auto;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 64px;
+    text-align: center;
+    margin:auto;
+}
+
+h4 { font-family: 'Caveat', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin:auto;
+    
+}
+
+nav {
+ display: flex; 
+    justify-content:center;
+    width: 100%;
+    overflow: hidden;
+font-family: 'Work Sans', sans-serif;
+    margin:auto;
+    text-align: center;
+    }
+
+/*links created in nav to transport to different pages.*/
+nav a {
+    margin:auto; 
+  float: left;
+  display: block;
+  color:	#FF0000;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  font-size: 14px;}
+
+/*Links used in the navigation have been styled to change color when the mouse is hovering it.*/
+a:hover {
+    background-color: 	#ffffff;
+    color: #000000;}
+
+.logo img{ 
+    display:flex;
+    width: 20%;
+ text-align: center;
+ margin:auto;
+}
+
+/*Each restaurant has been sectioned individually.*/
+.section{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    /*width:50%;*/
+    margin:auto;
+}
+
+
+.section img{  
+    display: flex;
+width: 30%;
+ text-align: center;
+ margin:auto;
+}
+ 
+.location {
+    text-align: center;
+    margin: auto;
+     font-style: italic;
+     
+}
+
+/*Slideshow baby!*/
+.fling-minislide {width:350px; height:300px; 
+overflow:hidden; 
+margin:auto;
+position:relative; }
+.fling-minislide img{ position:absolute; 
+animation:fling-minislide 20s infinite; 
+opacity:0; 
+width: 100%; 
+height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+
+.homesect{display:flex; padding-top:70px;justify-content: center; flex-flow: row nowrap;}
+.homesect img{width:65%}
+.homesect p{padding-top:30px;}
+.art1 {text-align: center;padding: 50px 30px 50px 80px;}
+.art2 {text-align: center;padding: 50px 30px 50px 80px;}
+.art3 {text-align: center;padding: 50px 30px 50px 80px;}
+
+
